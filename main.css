@@ -114,3 +114,42 @@ a{
 font-size: 30px;
 font-weight: normal;
 }
+.bio{
+    margin-top: 30px;
+ height: fit-content;
+    display: flex;
+    align-items: center;
+}
+.bio_product{
+    text-align: center;
+}
+.boi_disp{
+    font-size: 18px;
+}
+.boi_scroll{
+    flex-grow: 1;
+    display: flex;
+    overflow: auto;
+    height: 100%;
+}
+.product{
+    width: 200px;
+    height: 100%;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+.product:hover{
+    text-decoration: underline;
+}
+.arrow{
+    font-size: 50px;
+    height: 100%;
+}
+.product>img{
+    width: 150px;
+}
+.discription{
+    
+}
