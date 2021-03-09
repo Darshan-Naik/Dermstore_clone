@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", serif, Helvetica, Arial, sans-serif;
+}
 a {
   text-decoration: none;
 }
@@ -277,7 +281,7 @@ a {
 }
 #footer-div a {
   text-decoration: none;
-  color: rgb(44, 36, 36);
+  color: rgb(59, 50, 50);
   /* margin: 2% 1%; */
 }
 #footer-div a:hover {
@@ -316,4 +320,17 @@ a {
   height: 15px;
   width: 15px;
   margin: 0 6px 5px 2px;
+}
+#img-social:hover {
+  background-color: rgb(204, 204, 204);
+}
+#login-privacy {
+  width: 70%;
+  margin: auto;
+  display: flex;
+}
+#login-privacy p {
+  width: 50%;
+  font-size: 14px;
+  color: rgb(102, 99, 99);
 }
