@@ -1,10 +1,3 @@
-let top_header = document.querySelector(".header_top")
-let header_nav = document.querySelector(".header_nav")
-window.onscroll = ()=>{
-    top_header.style.marginTop = "-50px";
-    header_nav.classList.add("bottom_line","sticky")
-}
-
 function signup(){
         var email = document.getElementById("signup-email").value;
         var password = document.getElementById("signup-password").value;
