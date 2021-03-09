@@ -25,11 +25,15 @@ function signin(){
 
         //console.log(name, email, password, phone);
 
+        var login=false;
         var data = localStorage.getItem("DarmReg");
         //console.log(data);
         var obdata = JSON.parse(data);
         if (obdata.email == email2 && obdata.password == password2) {
-          alert("Email and password is correct - Login Successful");
+          alert("Login Successful");
+          login = true;
+          localStorage.setItem("Login",login);
+          window.location.href = "./index.html";
         } else {
           alert("Email and password is not correct");
         }
