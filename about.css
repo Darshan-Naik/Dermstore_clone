@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+#page1{
+    width: 100%;
+    height: 60vh;
+    border: 1px solid black;
+    margin-top: 150px;
+}
+.container-1{
+    width: 100%;
+    height: 10vh;
+    border: 1px solid red;
+}
+.container-1>div:nth-child(1){
+    width: 30%;
+    height: 10vh;
+    background: rgb(248, 240, 240);
+    margin-right: 10px;
+    float: left;
+}
+.container-1>div:nth-child(2){
+    width: 33%;
+    height: 10vh;
+    background: rgb(248, 240, 240);
+    margin-right: 10px;
+    float: left;
+}
+.container-1>div:nth-child(3){
+    width: 35%;
+    height: 10vh;
+    background: rgb(248, 240, 240);
+    margin-right: 0px;
+    float: left;
+}
+.container-2{
+    width: 100%;
+    height: 25vh;
+    border: 1px solid red;
+    margin-top: 10px;
+}
