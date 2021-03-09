@@ -1,15 +1,3 @@
-let top_header = document.querySelector(".header_top")
-let header_nav = document.querySelector(".header_nav")
-window.onscroll = ()=>{
-     if(scrollY >250){
-        header_nav.classList.add("bottom_line")
-        top_header.style.marginTop = "-60px";
-    }
-    if(scrollY <550){
-        top_header.style.marginTop = "0px";
-    }
-}
-
 var bio_products = [
     {
         src : "https://media.dermstore.com/catalog/500517/300x300/11062.jpg",
@@ -91,23 +79,34 @@ var bio_products = [
         discount : "20% off with code",
         code : "GLOWUP"                               
     }
-]
+];
+//console.log(bio_products);
+
+var num = Math.floor((Math.random())*10);
+console.log(bio_products[num]);
+
+document.getElementById("h4-neocutis-link").innerHTML = bio_products[num].disp;
+document.getElementById("title-product-cream-right").innerHTML = bio_products[num].disp;
+document.getElementById("strong-price-product-cream").innerHTML = bio_products[num].price;
+document.getElementById("strong-sale-price-product1").innerHTML = bio_products[num].sale;
+document.getElementById("strong-sale-price-product2").innerHTML = bio_products[num].sale;
+document.getElementById("strong-discount-product-cream").innerHTML = bio_products[num].discount;
 
 
-let product_cont = document.querySelector(".boi_scroll")
-bio_products.forEach((el)=>{
-    let div =document.createElement("div")
-    let img = document.createElement("img")
-    let product = document.createElement("p")
-    let price = document.createElement("p")
-    let code = document.createElement("p")
-    img.src= el.src
-    product.textContent = el.disp
-    product.classList.add("discription")
-    price.innerHTML = `${el.price}<strong>${el.sale}</strong>`
-    code.innerHTML =`${el.discount}<strong>${el.code}</strong>`
-    div.classList.add("product")
-    div.append(img,product,price,code)
-    product_cont.append(div)
-})
+var priceCream = bio_products[num].price;
+var quantity = document.getElementById("quantity").value;
 
+
+
+
+
+
+var img = document.getElementById("img-left-product-cream");
+img.setAttribute("src",bio_products[num].src);
+
+function buyCream(){
+    console.log("Hi");
+    localStorage.setItem("QuantityCream", quantity);
+    localStorage.setItem("PriceCream",priceCream);
+    window.location.href="/cart.html";
+}

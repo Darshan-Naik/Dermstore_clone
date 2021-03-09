@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+}
+/* h4 */
+#content-product-cream-h4 {
+  width: 67%;
+  margin: 3% auto;
+}
+#content-product-cream-h4 a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+#content-product-cream-h4 a:hover {
+  text-decoration: underline;
+  color: rgb(78, 78, 190);
+}
+#content-product-cream-h4 h4 {
+  font-weight: 200;
+}
+
+/* main content */
+#content-product-cream {
+  display: flex;
+  width: 70%;
+  margin: 2% auto;
+  background-color: rgb(255, 255, 255);
+  height: 550px;
+}
+#content-product-cream img {
+  width: 70%;
+  margin: 8%;
+}
+#product-cream-trust {
+  width: 20px;
+}
+#title-product-cream-right {
+  width: 90%;
+  font-size: 24px;
+  font-weight: 300;
+}
+#content-product-cream div {
+  width: 80%;
+  background-color: rgb(255, 255, 255);
+  height: 500px;
+}
+table td {
+  padding: 4%;
+  border: 0.5px solid;
+}
+table {
+  width: 500px;
+}
+#buy-button-product {
+  background-color: rgb(41, 33, 33);
+  color: white;
+  padding: 2% 12%;
+  font-size: 20px;
+  margin-left: 35%;
+  margin-bottom: 2%;
+}
+#cream-product-p {
+  text-align: right;
+  margin-right: 10%;
+  font-size: 17px;
+}
+#content-product-cream-right h4 {
+  font-size: 20px;
+  margin: 0;
+  font-weight: 600;
+}
+#content-product-cream-right h5 {
+  font-size: 18px;
+  margin: 5% 0;
+  font-weight: 100;
+}
+
+/* usage */
+#usage-product-cream {
+  width: 68%;
+  height: 160px;
+  background-color: rgba(228, 228, 228, 0.26);
+  margin: auto;
+  padding: 1%;
+}
+#usage-product-cream h2 {
+  padding: 2%;
+  margin-left: 4%;
+  font-size: 23px;
+}
+#usage-product-cream p {
+  font-size: 18px;
+  margin-left: 6%;
+}
