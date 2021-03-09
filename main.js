@@ -95,7 +95,7 @@ var bio_products = [
 
 
 let product_cont = document.querySelector(".boi_scroll")
-bio_products.forEach((el)=>{
+bio_products.forEach(el=>{
     let div =document.createElement("div")
     let img = document.createElement("img")
     let product = document.createElement("p")
