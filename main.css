@@ -91,6 +91,8 @@ a{
     left: 35%;
     text-align: center;
     background-color: white;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .trending{
@@ -122,18 +124,19 @@ font-weight: normal;
 }
 .bio_product{
     text-align: center;
+    margin-bottom: 100px;
 }
 .boi_disp{
     font-size: 18px;
 }
-.boi_scroll{
+.boi_scroll,.brand_scroll{
     flex-grow: 1;
     display: flex;
     overflow: auto;
     height: 100%;
 }
 .product{
-    width: 200px;
+    width: 250px;
     height: 100%;
     text-align: left;
     padding: 10px;
@@ -151,5 +154,84 @@ font-weight: normal;
     width: 150px;
 }
 .discription{
-    
+ height: 100px;   
+}
+.boi_scroll::-webkit-scrollbar
+{
+    height: 5px;
+	background-color: #F5F5F5;
+}
+.boi_scroll::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+}
+.brand_log>img{
+ height: 20px;
+}
+.brand_log{
+    justify-content: space-evenly;
+}
+.brand{
+    border-top: 1px solid rgba(0, 128, 128, 0.623);
+    position: relative;
+}
+.brand_head{
+    position: relative;
+    top: -35px;
+    left: 35%
+}
+.brand_head>h1{
+    background-color: white;
+    width: fit-content;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.brand_banner{
+    background-image: url("https://media.dermstore.com/images/homepage/earlyaccess-br-hp-loyalty-banner-3-20.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 160px;
+    margin-top: 80px;
+    justify-content: flex-end;
+}
+.banner_text{
+    width: 40%;
+    padding: 10px 25px;
+}
+.banner_text>*{
+color: white;
+}
+.banner_text>h2{
+    margin-bottom: 0;
+}
+.banner_text>p{
+    margin-top: 0;
+}
+.banner_text>a{
+    margin-left: 25px;
+    text-decoration: underline;
+}
+.brand_product>img{
+    width: 150px;
+}
+
+.brand_product{
+    width: 200px;
+    cursor: pointer;
+    margin: 10px 20px;
+}
+.brand_product:hover>*{
+   text-decoration: underline;
+}
+.brand_discription{
+    height: 50px;
+}
+.brand_scroll::-webkit-scrollbar
+{
+    height: 5px;
+	background-color: #F5F5F5;
+}
+.brand_scroll::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
 }
