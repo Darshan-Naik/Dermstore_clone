@@ -6,10 +6,11 @@ body{
 
 #page1{
     width: 100%;
-    height: 60vh;
+    /* height: 60vh; */
     margin-top: 150px;
     background-image: url("./images/background.PNG");
     max-width: 1000px;
+    margin: auto;
 }
 h1{
     text-align: center;
@@ -22,9 +23,10 @@ p{
 }
 #page2{
     width: 100%;
-    height: 95vh;
-    margin-top: 50px;
+    /* height: 95vh; */
+    margin-top: 5px;
     max-width: 1000px;
+    margin: auto;
 }
 #page2>div:nth-child(1){
     width: 49.5%;
@@ -50,22 +52,24 @@ p{
 
 }
 #para{
-    width: 80%;
-    height: 25vh;
+    width: 100%;
+    /* height: 25vh; */
     margin: auto;
     max-width: 1000px;
 }
 #why-shop{
-    width: 85%;
-    height: 90vh;
+    width: 100%;
+    /* height: 90vh; */
     margin: auto;
     max-width: 1000px;
+    margin: auto;
 }
 #learn-more{
     width: 100%;
-    height: 120vh;
-    margin-top: 10px;
+    /* height: 120vh; */
+    margin-top: 0px;
     max-width: 1000px;
+    margin: auto;
 }
 #learn-more>div:nth-child(1){
     width: 25%;
@@ -129,4 +133,10 @@ h2{
 a{
     color: green;
     align-content: center;
+}
+#diffrences{
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    clear: both;
 }
