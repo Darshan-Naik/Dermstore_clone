@@ -235,3 +235,55 @@ color: white;
 {
 	background-color: #000000;
 }
+.blog{
+    position: relative;
+    margin: 80px auto;
+    border-top: 1px solid teal;
+    border-bottom: 1px solid teal;
+}
+.blog_head{
+    position: absolute;
+    top: -35px;
+    left: 40%;
+}
+.blog_head>h1{
+    width: fit-content;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.blog_product{
+    width: 350px;
+    padding: 30px 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.blog_product>img{
+    width: 300px;
+}
+.blog_scroll::-webkit-scrollbar {
+    display: none;
+}
+.blog_product>p{
+    width: 75%;
+    margin: 20px auto;
+    transition:all 500ms ease-in-out;
+}
+.blog_product:hover>p{
+    color: violet;
+    margin: 15px auto;
+}
+.Authorize_box{
+    text-align: center;
+    border-bottom: 1px solid teal;
+    padding-bottom: 40px;
+    justify-content: center;
+    margin-top: -30px;
+}
+.Authorize_box>p{
+  margin: 10px;
+  font-size: 20px;
+}
+.Authorize_box>img{
+ height: 35px;
+  }
