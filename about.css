@@ -7,38 +7,53 @@ body{
 #page1{
     width: 100%;
     height: 60vh;
-    border: 1px solid black;
     margin-top: 150px;
+    background-image: url("./images/background.PNG");
 }
-.container-1{
+h1{
+    text-align: center;
+    font-size: 50px;
+    line-height: 100px;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+}
+#page2{
     width: 100%;
-    height: 10vh;
-    border: 1px solid red;
+    height: 95vh;
+    margin-top: 50px;
 }
-.container-1>div:nth-child(1){
-    width: 30%;
-    height: 10vh;
-    background: rgb(248, 240, 240);
-    margin-right: 10px;
+#page2>div:nth-child(1){
+    width: 49.5%;
+    height: 85vh;
+    margin-top: 30px;
+    margin-left: 30px;
     float: left;
 }
-.container-1>div:nth-child(2){
-    width: 33%;
-    height: 10vh;
-    background: rgb(248, 240, 240);
-    margin-right: 10px;
+#page2>div:nth-child(2){
+    width: 40%;
+    height: 50vh;
+    margin-top: 200px;
+    margin-left: 30px;
     float: left;
 }
-.container-1>div:nth-child(3){
-    width: 35%;
-    height: 10vh;
-    background: rgb(248, 240, 240);
-    margin-right: 0px;
-    float: left;
+#page2>div:nth-child(2)>h1{
+    text-align: left;
+    line-height: 0px;
 }
-.container-2{
-    width: 100%;
+#page2>div:nth-child(2)>p{
+    font-size: 20px;
+    text-align: left;
+
+}
+#para{
+    width: 80%;
     height: 25vh;
-    border: 1px solid red;
-    margin-top: 10px;
+    margin: auto;
+}
+#why-shop{
+    width: 85%;
+    height: 90vh;
+    margin: auto;
 }
