@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+#page1{
+    width: 100%;
+    height: 60vh;
+    margin-top: 150px;
+    background-image: url("./images/background.PNG");
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    line-height: 100px;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+}
+#page2{
+    width: 100%;
+    height: 95vh;
+    margin-top: 50px;
+}
+#page2>div:nth-child(1){
+    width: 49.5%;
+    height: 85vh;
+    margin-top: 30px;
+    margin-left: 30px;
+    float: left;
+}
+#page2>div:nth-child(2){
+    width: 40%;
+    height: 50vh;
+    margin-top: 200px;
+    margin-left: 30px;
+    float: left;
+}
+#page2>div:nth-child(2)>h1{
+    text-align: left;
+    line-height: 0px;
+}
+#page2>div:nth-child(2)>p{
+    font-size: 20px;
+    text-align: left;
+
+}
+#para{
+    width: 80%;
+    height: 25vh;
+    margin: auto;
+}
+#why-shop{
+    width: 85%;
+    height: 90vh;
+    margin: auto;
+}
