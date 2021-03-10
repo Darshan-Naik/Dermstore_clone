@@ -1,5 +1,5 @@
 import {bio_products,brand_products,blog_product}  from "./module/data.js"
-
+console.log(bio_products)
 let top_header = document.querySelector(".header_top")
 let header_nav = document.querySelector(".header_nav")
 window.onscroll = ()=>{
@@ -13,7 +13,7 @@ window.onscroll = ()=>{
 }
 
 var product_cont = document.querySelector(".boi_scroll")
-bio_products.forEach(el=>{
+bio_products.forEach((el,i)=>{
     let div =document.createElement("div")
     let img = document.createElement("img")
     let product = document.createElement("p")
@@ -24,7 +24,10 @@ bio_products.forEach(el=>{
     product.classList.add("discription")
     price.innerHTML = `${el.price}<strong>${el.sale}</strong>`
     code.innerHTML =`${el.discount}<strong>${el.code}</strong>`
+    div.value = i
     div.classList.add("product")
+    div.addEventListener("click", product_page)
+
     div.append(img,product,price,code)
     product_cont.append(div)
 })
@@ -149,4 +152,8 @@ if(login == "true"){
 }
 document.querySelector("#user").onclick = ()=>{
     localStorage.setItem("Login",false)
+}
+function product_page(event){
+    let i = event.currentTarget.value
+    location.href = `./product-cream.html?i=${i}`
 }
