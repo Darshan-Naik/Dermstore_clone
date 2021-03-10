@@ -47,16 +47,16 @@ body {
 }
 
 .brand_nav div {
-  width: 14%;
+  width: 15%;
   height: 230px;
-  margin: 12px;
+  margin: 18px;
   margin-top: 50px;
   /* background-color: red; */
   /* border: 1px solid blue; */
 }
 
 .brand_nav div:nth-child(1) {
-  margin-left: 18%;
+  margin-left: 13%;
   margin-right: 100px;
 }
 
@@ -96,26 +96,32 @@ table td > a:hover {
 }
 
 /* sections a to z */
-#has {
+.has {
   display: flex;
-  width: 80%;
+  width: 90%;
 }
-#has > h2 {
-  margin-left: 23%;
+.has > h2 {
+  margin-left: 15%;
   padding: 6px 15px;
   background-color: #cac8c8;
 }
 .hr {
   padding: 0;
-  width: 80%;
+  width: 77%;
   margin-left: 20px;
   border: none;
   margin-top: 40px;
+  border-top: 1px solid rgb(231, 229, 229);
 }
 .section1 {
   display: flex;
-  margin: 20px;
 }
-.section1 > div {
-  margin: 50px;
+.section1 > div:nth-child(1) {
+  margin-left: 200px;
+}
+.section1 > div:nth-child(2) {
+  margin-left: 200px;
+}
+.section1 > div:nth-child(3) {
+  margin-left: 200px;
 }
