@@ -46,13 +46,14 @@ document.querySelector(".downn").onclick = ()=>{
       });
 }
 product_cont.onscroll = () =>{
+    console.log(event.srcElement.scrollLeft);
     if(event.srcElement.scrollLeft == 0){
         document.querySelector(".up").style.display = "none"
         document.querySelector(".downn").style.display = "block"
     } else{
         document.querySelector(".up").style.display = "block"
     }
-    if(event.srcElement.scrollLeft > 1036){
+    if(event.srcElement.scrollLeft > 900){
         document.querySelector(".up").style.display = "block"
         document.querySelector(".downn").style.display = "none"
     }else{
@@ -105,7 +106,7 @@ document.querySelector("#up").onclick = ()=>{
         } else{
             document.querySelector("#up").style.display = "block"
         }
-        if(event.srcElement.scrollLeft > 1336){
+        if(event.srcElement.scrollLeft > 1000){
             document.querySelector("#up").style.display = "block"
             document.querySelector("#downn").style.display = "none"
         }else{
