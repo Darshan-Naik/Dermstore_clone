@@ -25,9 +25,8 @@ bio_products.forEach((el,i)=>{
     price.innerHTML = `${el.price}<strong>${el.sale}</strong>`
     code.innerHTML =`${el.discount}<strong>${el.code}</strong>`
     div.value = i
-    div.classList.add("product")
     div.addEventListener("click", product_page)
-
+    div.classList.add("product")
     div.append(img,product,price,code)
     product_cont.append(div)
 })
@@ -65,7 +64,7 @@ product_cont.onscroll = () =>{
 
 
 var brand_cont = document.querySelector(".brand_scroll")
-brand_products.forEach(el=>{
+brand_products.forEach((el,i)=>{
     let div =document.createElement("div")
     let img = document.createElement("img")
     let product = document.createElement("h3")
@@ -76,7 +75,8 @@ brand_products.forEach(el=>{
     code.textContent = el.disp
     code.classList.add("brand_discription")
     product.textContent = el.head
-
+    div.value = i
+    div.addEventListener("click", product_page)
     price.innerHTML = el.price
     small.innerHTML =el.discount
     div.classList.add("brand_product")
@@ -118,7 +118,7 @@ document.querySelector("#up").onclick = ()=>{
 
 
     var blog_cont = document.querySelector(".blog_scroll")
-blog_product.forEach(el=>{
+blog_product.forEach((el)=>{
     let div =document.createElement("div")
     let img = document.createElement("img")
     let name = document.createElement("p")
@@ -155,5 +155,13 @@ document.querySelector("#user").onclick = ()=>{
 }
 function product_page(event){
     let i = event.currentTarget.value
-    location.href = `./product-cream.html?i=${i}`
+    let data_file = event.currentTarget.classList.value
+    if(data_file == "product"){
+        data_file = "bio_products"
+    }
+    if(data_file == "brand_product"){
+        data_file ="brand_products"
+    }
+    console.log(data_file);
+   location.href = `./product-cream.html?i=${i}&file=${data_file}`
 }
