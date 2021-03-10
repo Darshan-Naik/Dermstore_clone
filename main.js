@@ -153,6 +153,8 @@ if(login == "true"){
 document.querySelector("#user").onclick = ()=>{
     localStorage.setItem("Login",false)
 }
+
+
 function product_page(event){
     let i = event.currentTarget.value
     let data_file = event.currentTarget.classList.value
