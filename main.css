@@ -5,123 +5,285 @@ body{
 a{
     text-decoration: none;
 }
-*{
-    font-size: 14px;
-    color: rgb(32, 31, 31);
-}
-.header_top{
-    background-color: #222;
-    width: 100%;
-    height: 50px;
-    display: flex;
-    transition: all 300ms ease-in-out;
-}
-.container {
-    width: 1000px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.offers_msg{
-    display: flex;
-    align-items: center;
-    color: white;
-}
-.reverse{
-    transform: scaleX(-1);
-}
-.button_nav{
-    background-color: inherit;
-    border: none;
-    outline: none;
-    font-size: 15px;
-    color: white;
-}
-.msg{
 
-    font-size: 13px;
-    letter-spacing: 0.5px;
-    margin-right: 50px;
-    color: white;
+.banner_box{
+    background-image: url("https://media.dermstore.com/images/homepage/beauty-refresh-hp-banner-03-21.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+    width: 1000px;
+    margin: 50px auto;
 }
-.msg>span{
-    text-decoration: underline;
-    font-size: 14px;
-}
-.bar{
+.banner >*{
     color: white;
-    margin: auto 5px;
+    font-family: apercu,sans-serif;
+    font-size: 12px;
+}
+.banner{
+    width: 35%;
+    padding:0 50px;
+}
+.banner>h3{
     font-size: 20px;
+    margin-bottom: 0;
 }
-.login_signup>a{
+.banner>h1{
+    font-size: 45px;
+    margin-top: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+.banner>p{
+    font-size: 18px;
+}
+.banner a{
     color: white;
-}
-.login_signup strong{
     text-decoration: underline;
 }
-.down{
-    border: solid white;
-    border-width: 0 2px 2px 0;
-    display: inline-block;
-    padding: 3px;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    margin: auto 5px;
+.banner>button{
+    font-size: 18px;
+    padding: 5px 10px;
+    background-color: white;
+    color: black;
+    border : none;
+    margin-bottom: 20px;
 }
-.header_nav{
-    padding: 30px 0 20px 0;
+.shop_beauty{
+    margin-top: 50px;
+    margin-bottom: 50x;
 }
-#logo{
+.boxes>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    padding: 5px;
     width: 200px;
+    min-height: 50px;
+    text-align: center;
+    margin: 10px;
 }
-.search img{
-width: 15px;
-padding: 0 5px;
+.boxes>div>a{
+    color: black;
+    font-size: 16px;
+    font-family: apercu;
+    font-weight: bold;
 }
-.flex_box{
+.boxes{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.shop{
+    width: 1000px;
+    margin: 50px auto;
+    position: relative;
+    border-top: 1px solid rgba(0, 128, 128, 0.753);
+}
+.shop_head{
+    text-align: center;
+}
+.shop_head>h1{
+    width: fit-content;
+    position: absolute;
+    top: -35px;
+    left: 35%;
+    text-align: center;
+    background-color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.trending{
+   background-image: url("https://media.dermstore.com/images/homepage/product-carousel-neocutis.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.trending_details>*{
+    color: black;
+    margin: 2px;
+    padding-left: 50px;
+}
+.trending_details>a{
+    margin-left: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.trending_details>h1{
+font-size: 30px;
+font-weight: normal;
+}
+.bio{
+    margin-top: 30px;
+ height: fit-content;
     display: flex;
     align-items: center;
 }
-.cart img{
-    width: 25px;
+.bio_product{
+    text-align: center;
+    margin-bottom: 100px;
 }
-.search{
-    border: 1px solid teal;
+.boi_disp{
+    font-size: 18px;
 }
-#search_box{
-    padding: 5px 12px;
-    min-width: 300px;
-    border: none;
+.boi_scroll,.brand_scroll{
+    flex-grow: 1;
+    display: flex;
+    overflow: auto;
+    height: 100%;
 }
-.search_btn{
-    padding: 6px;
-    border: none;
+.product{
+    width: 250px;
+    height: 100%;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+.product:hover{
+    text-decoration: underline;
+}
+.arrow{
+    font-size: 50px;
+    height: 100%;
+}
+.product>img{
+    width: 150px;
+}
+.discription{
+ height: 100px;   
+}
+.boi_scroll::-webkit-scrollbar
+{
+    height: 5px;
+	background-color: #F5F5F5;
+}
+.boi_scroll::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+}
+.brand_log>img{
+ height: 20px;
+}
+.brand_log{
+    justify-content: space-evenly;
+}
+.brand{
+    border-top: 1px solid rgba(0, 128, 128, 0.623);
+    position: relative;
+}
+.brand_head{
+    position: relative;
+    top: -35px;
+    left: 35%
+}
+.brand_head>h1{
     background-color: white;
+    width: fit-content;
+    padding-left: 25px;
+    padding-right: 25px;
 }
-.cart{
-    margin: auto 10px;
+.brand_banner{
+    background-image: url("https://media.dermstore.com/images/homepage/earlyaccess-br-hp-loyalty-banner-3-20.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 160px;
+    margin-top: 80px;
+    justify-content: flex-end;
 }
-#cart_item{
-    font-size: 12px;
-    color: teal;
+.banner_text{
+    width: 40%;
+    padding: 10px 25px;
 }
-.menu{
-    font-size: 15px;
-    font-weight: 600;
-    padding-top: 30px;
+.banner_text>*{
+color: white;
 }
-.menu>a{
-    font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.banner_text>h2{
+    margin-bottom: 0;
 }
-.bottom_line{
-    box-shadow: 0 9px 1px -8px black;
+.banner_text>p{
+    margin-top: 0;
 }
-.sticky{
-    position: sticky;
-    top: 0;
+.banner_text>a{
+    margin-left: 25px;
+    text-decoration: underline;
 }
+.brand_product>img{
+    width: 150px;
+}
+
+.brand_product{
+    width: 200px;
+    cursor: pointer;
+    margin: 10px 20px;
+}
+.brand_product:hover>*{
+   text-decoration: underline;
+}
+.brand_discription{
+    height: 50px;
+}
+.brand_scroll::-webkit-scrollbar
+{
+    height: 5px;
+	background-color: #F5F5F5;
+}
+.brand_scroll::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+}
+.blog{
+    position: relative;
+    margin: 80px auto;
+    border-top: 1px solid teal;
+    border-bottom: 1px solid teal;
+}
+.blog_head{
+    position: absolute;
+    top: -35px;
+    left: 40%;
+}
+.blog_head>h1{
+    width: fit-content;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.blog_product{
+    width: 350px;
+    padding: 30px 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.blog_product>img{
+    width: 300px;
+}
+.blog_scroll::-webkit-scrollbar {
+    display: none;
+}
+.blog_product>p{
+    width: 75%;
+    margin: 20px auto;
+    transition:all 500ms ease-in-out;
+}
+.blog_product:hover>p{
+    color: violet;
+    margin: 15px auto;
+}
+.Authorize_box{
+    text-align: center;
+    border-bottom: 1px solid teal;
+    padding-bottom: 40px;
+    justify-content: center;
+    margin-top: -30px;
+}
+.Authorize_box>p{
+  margin: 10px;
+  font-size: 20px;
+}
+.Authorize_box>img{
+ height: 35px;
+  }

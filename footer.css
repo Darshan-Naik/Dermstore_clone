@@ -1,0 +1,64 @@
+/* Footer div css*/
+#footer-div {
+  width: 70%;
+  height: 300px;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  padding: 0.5%;
+  display: flex;
+}
+#footer-div a {
+  text-decoration: none;
+  color: rgb(59, 50, 50);
+  /* margin: 2% 1%; */
+}
+#footer-div a:hover {
+  text-decoration: underline;
+  color: rgb(17, 62, 145);
+}
+#footer-div div {
+  margin: 1% 1%;
+  width: 60%;
+}
+#footer-div div:nth-last-child(1) {
+  margin: 1% 1%;
+  width: 100%;
+}
+#footer-div h6 {
+  font-size: 20px;
+  margin-bottom: 8%;
+}
+#offer-email {
+  width: 60%;
+  height: 30px;
+  font-size: 17px;
+  margin: 1% 1%;
+  padding: 1% 5%;
+}
+#footer-div label {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 1% 1%;
+}
+#space {
+  height: 2px;
+  width: 30px;
+}
+#img-social {
+  height: 15px;
+  width: 15px;
+  margin: 0 6px 5px 2px;
+}
+#img-social:hover {
+  background-color: rgb(204, 204, 204);
+}
+#login-privacy {
+  width: 70%;
+  margin: auto;
+  display: flex;
+}
+#login-privacy p {
+  width: 50%;
+  font-size: 14px;
+  color: rgb(102, 99, 99);
+}

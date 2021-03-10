@@ -1,15 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./login.css">
-    <title>Dermstore</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./nav_bar.css">
+    <link rel="stylesheet" href="./login.css" />
+    <link rel="stylesheet" href="./footer.css" />
+    <title>Dermstore Login</title>
+  </head>
+  <body>
+    <!-- --------------header part------------- -->
+<section class="header_top">
+  <div class="container flex_box_2">
+      <div class="offers_msg">
+          <button class="reverse button_nav">&#10151</button>
+          <a href="#" class="msg">Up to 20% off solutions for skin, hair & makeup with code: <span> GLOWUP SHOP NOW</span></a>
+          <button class="button_nav">&#10151</button>
+      </div>
+      <div class="login_signup">
+          <a href="#"> <strong>EARN 2X POINTS </strong></a> <span class="bar">|</span> 
+          <a href="./login.html"> Log In / Sign Up <i class="down"></i></a>
+      </div>
+  </div>
+</section>
+<section class="header_nav sticky">
+  <div class="container flex_box_2">
+      <img src="https://media.dermstore.com/images/lockup-new.svg" alt="logo" id="logo">
+      <div class="flex_box">
+          <div class="search">
+              <input type="text" placeholder="Search Brands, Concerns, Products" id="search_box">
+              <button class="search_btn"><img src="https://cdn.icon-icons.com/icons2/2551/PNG/512/search_icon_152764.png" alt=""></button>
+          </div>
+          <div class="cart flex_box">
+              <p id="cart_item"><span>(0)</span>items</p>
+              <img src="https://media.dermstore.com/images/style/bootstrap3/img/Shopping-Bag.png" alt="">
+          </div>
+      </div>
+  </div>
+  <div class="container flex_box_2 menu">
+      <a href="./index.html">Browse By</a>
+      <a href="./brand.html">Brands</a>
+      <a href="#">Skin Care</a>
+      <a href="#">Makeup</a>
+      <a href="#">Hair Care</a>
+      <a href="#">Bath & Body</a>
+      <a href="#">Men</a>
+      <a href="#">Gifts & Sets</a>
+      <a href="#">Sale</a>
+      <a href="#">Skin 101</a>
+  </div>
+</section>
+<!-- --------------header part------------- -->
+    <!-- nav -->
+    
+    <div id="login-content">
+      <h4 id="login-a-h4">
+        <a href="index.html">Home</a> > Account >
+        <a href="login.html">Sign In</a>
+      </h4>
+      <br />
+      <h3 id="login-content-h3">Sign In / Sign Up</h3>
+      <hr />
+    </div>
 
+    <div id="login-main">
+      <div id="login-module">
+        <h3 id="login-module-h3">Returning Customer</h3>
+        <p id="login-module-p">
+          Enter your email address and password below to sign in.
+        </p>
+        <br />
+        <form action="">
+          <label for="">Email</label>
+          <input type="text" name="" id="login-email" placeholder="Email" />
+          <label for="">Password</label>
+          <input
+            type="password"
+            name=""
+            id="login-password"
+            placeholder="Password"
+          />
+        </form>
+        <a href="#">Forgot your password?</a><br />
+        <button id="login-button" onclick="signin()">Sign In</button>
+      </div>
+      <div id="hr-module"></div>
+      <div id="signup-module">
+        <h3 id="login-module-h3">Create an Account</h3>
+        <p id="login-module-p">
+          Sign up to use convenient features and quick checkout.
+        </p>
+        <br />
+        <form action="">
+          <label for="">Email</label>
+          <input type="text" name="" id="signup-email" placeholder="Email" />
+          <label for="">Password</label>
 
+          <input
+            type="password"
+            name=""
+            id="signup-password"
+            placeholder="Password"
+          /><small id="signup-small"
+            >Password must be 8-20 characters and contain at least one number
+            and letter.</small
+          >
+          <input
+            type="checkbox"
+            id="signup-check1"
+            name="signup-check1"
+            value="promotion"
+          />
+          <label for="signup-check1">
+            Include me on your mailing list for specials and promotions.</label
+          ><br />
+          <input
+            type="checkbox"
+            id="signup-check2"
+            name="signup-check2"
+            value="rewards"
+          />
+          <label for="signup-check2">
+            Include me in the Dermstore Rewards program.</label
+          ><br />
+        </form>
+
+        <button id="signup-button" onclick="signup()">Sign Up</button>
+      </div>
+    </div>
+
+    <!-- footer div html -->
+    <div id="footer-div">
+      <div>
+        <h6>Company</h6>
+        <a href="./about.html">About Us</a><br />
+        <div id="space"></div>
+        <a href="#">Dermstore Spa</a><br />
+        <div id="space"></div>
+        <a href="#">Testimonials</a><br />
+        <div id="space"></div>
+        <a href="#">Press</a><br />
+        <div id="space"></div>
+        <a href="#">Brand Submissions</a><br />
+        <div id="space"></div>
+        <a href="#">eGift Cards</a><br />
+      </div>
+      <div>
+        <h6>Customer Service</h6>
+        <a href="#">Customer Service</a><br />
+        <div id="space"></div>
+        <a href="#">FAQs</a><br />
+        <div id="space"></div>
+        <a href="#">About Rewards</a><br />
+        <div id="space"></div>
+        <a href="#">Order Status</a><br />
+        <div id="space"></div>
+        <a href="#">Shipping Information</a><br />
+        <div id="space"></div>
+        <a href="#">Product Recall</a><br />
+        <div id="space"></div>
+        <a href="#">Accessibility</a><br />
+      </div>
+      <div>
+        <h6>My Account</h6>
+        <a href="#">Dermstore Subscriptions</a><br />
+        <div id="space"></div>
+        <a href="#">My Rewards</a><br />
+        <div id="space"></div>
+        <a href="#">My Favorites</a><br />
+        <div id="space"></div>
+        <a href="#">Order History</a><br />
+        <div id="space"></div>
+        <a href="#">Returns</a><br />
+      </div>
+      <div>
+        <h6>New Subscribers Receive 15% Off*</h6>
+        <label for="">Email</label><br />
+        <input type="text" name="" id="offer-email" placeholder="Email" />
+        <button>></button>
+        <br /><br />
+        <a href="#"
+          >*Offer valid for new subscribers and participating brands only.
+          Single-use promo will be sent via email.</a
+        ><br /><br />
+        <div id="login-follow">
+          Follow us on
+          <br /><br />
+          <img id="img-social" src="login_img\facebook_svg.svg" alt="" />
+          <img id="img-social" src="login_img\instagram_svg.svg" alt="" />
+          <img id="img-social" src="login_img\twitter_svg.svg" alt="" />
+          <img id="img-social" src="login_img\youtube_svg.svg" alt="" />
+          <img id="img-social" src="login_img\pinterest_svg.svg" alt="" />
+        </div>
+        <div id="space"></div>
+        
+        
+      </div>
+    </div>
+    <br><hr style="width: 70%;">
+      <div id="login-privacy">
+        <p>Copyright © 2021 Dermstore.com. All Rights Reserved.</p>
+        <p>CA Privacy Rights Do Not Sell My Personal Information - CA Residents Interest-Based Ads Privacy and Security Terms of Use</p>
+    </div><br>
     <script src="./login.js"></script>
-</body>
+    <script src="./main.js"></script>
+  </body>
 </html>

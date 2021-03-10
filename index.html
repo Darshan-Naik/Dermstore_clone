@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./nav_bar.css">
     <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./footer.css" />
     <title>Dermstore</title>
 </head>
 <body>
 <!-- --------------header part------------- -->
 <section class="header_top">
-    <div class="container">
+    <div class="container flex_box_2">
         <div class="offers_msg">
             <button class="reverse button_nav">&#10151</button>
             <a href="#" class="msg">Up to 20% off solutions for skin, hair & makeup with code: <span> GLOWUP SHOP NOW</span></a>
@@ -18,12 +20,12 @@
         </div>
         <div class="login_signup">
             <a href="#"> <strong>EARN 2X POINTS </strong></a> <span class="bar">|</span> 
-            <a href="#"> Log In / Sign Up <i class="down"></i></a>
+            <a href="./login.html" id="user"> Log In / Sign Up <i class="down"></i></a>
         </div>
     </div>
 </section>
-<section class="header_nav">
-    <div class="container">
+<section class="header_nav sticky">
+    <div class="container flex_box_2">
         <img src="https://media.dermstore.com/images/lockup-new.svg" alt="logo" id="logo">
         <div class="flex_box">
             <div class="search">
@@ -36,9 +38,9 @@
             </div>
         </div>
     </div>
-    <div class="container menu">
-        <a href="#">Browse By</a>
-        <a href="#">Brands</a>
+    <div class="container flex_box_2 menu">
+        <a href="./index.html">Browse By</a>
+        <a href="./brand.html">Brands</a>
         <a href="#">Skin Care</a>
         <a href="#">Makeup</a>
         <a href="#">Hair Care</a>
@@ -50,6 +52,217 @@
     </div>
 </section>
 <!-- --------------header part------------- -->
-    <script src="./main.js"></script>
+<!-- --------------banner part------------- -->
+<section class="banner_box">
+    <div class="banner">
+        <h3>BEAUTY REFRESH EVENT</h3>
+        <h1>Up to 20% Off*</h1>
+        <p>Glow-up your routine with thoughtful solutions for skin, hair & makeup from the top brands out there.</p>
+        <p> Code: <strong>GLOWUP</strong></p>
+        <button>SHOP NOW</button><br>
+        <small><sup>*</sup> Ends 3/10. <a href="#">Participating brands only</a></small>
+    </div>
+</section>
+<!-- --------------banner part------------- -->
+<!-- --------------shop by beauty part------------- -->
+<section class="shop_beauty">
+    <div class="container shop">
+        <div class="shop_head">
+            <h1>Shop The Beauty Refresh Event</h1>
+        </div>
+            <div class="flex_box boxes">
+               <div> <a href="#">CLEANSERS</a></div>
+               <div> <a href="#">TREATMENTS</a></div>
+               <div> <a href="#">EYE CARE</a></div>
+               <div> <a href="#">MOISTURIZERS</a></div>
+               <div> <a href="#">FACE SUN CARE</a></div>
+               <div> <a href="#">PROFESSIONAL DEVICES</a></div>
+               <div> <a href="#">HAIR CARE</a></div>
+               <div> <a href="#">MAKEUP</a></div>
+        </div>
+    </div>    
+</section>
+<!-- --------------shop by beauty part------------- -->
+<!-- --------------trending banner part------------- -->
+<section class="trending_banner">
+    <div class="container trending">
+        <div class="trending_details">
+            <h4>BEAUTY REFRESH EVENT</h4>
+            <h1>Up to 20% off Neocutis</h1>
+            <a href="#">SHOP NOW</a>
+        </div>
+    </div>
+</section>
+<!-- --------------trending banner part------------- -->
+<!-- --------------bio_product part------------- -->
+<section class="bio_product">
+    <p class="boi_disp">Bio-restorative skin care for healthy, youthful-looking skin.</p>
+    <div class="container bio">
+        <p class="arrow up"><</p>
+        <div class="boi_scroll">
+            <div class="product">
+                <img src="https://media.dermstore.com/catalog/500517/300x300/56137.jpg" alt="product_img">
+                <p class="discription">NEO Firm Neck & Décolleté Tightening Cream (50 g.)</p>
+                <p>$135.00 <strong>$135.00 </strong></p>
+                <p>20% off with code <strong>GLOWUP</strong></p>
+            </div>
+            
+            
+        </div>
+        <p class="arrow downn">></p>
+    </div>
+
+</section>
+<!-- --------------bio_product part------------- -->
+<!-- --------------brand part------------- -->
+<section class="brands">
+    <div class="container brand">
+        <div class="brand_head">
+            <h1>Save up to 20% on Select Brands</h1>
+        </div>
+        <div class="brand_log flex_box">
+                <img src="https://media.dermstore.com/catalog/500214/brand_logo.jpg" alt="">
+                <img src="https://media.dermstore.com/catalog/502043/brand_logo.jpg" alt="">
+                <img src="https://media.dermstore.com/catalog/100083/brand_logo.jpg" alt="">
+                <img src="https://media.dermstore.com/catalog/504373/brand_logo.jpg" alt="">
+                <img src="https://media.dermstore.com/catalog/504930/brand_logo.jpg" alt="">
+                <img src="https://media.dermstore.com/catalog/505658/brand_logo.jpg" alt="">
+
+        </div>
+    </div>
+    <div class=" container brand_banner flex_box">
+        <div class="banner_text">
+            <h2>Earn 2x Points** </h2>
+            <p>Rewards members glow further & get DOUBLE on some of our most coveted brands.</p>
+            <a href="#">START EARNING</a><br>
+            <small>**Ends 3/10. Participating brands only.</small>
+        </div>
+    </div>
+    <div class="container barnd bio">
+        <p class="arrow up" id="up"><</p>
+        <div class="brand_scroll">
+            <div class="brand_product">
+                <img src="https://media.dermstore.com/catalog/505555/300x300/79298.jpg" alt="product_img">
+                <h3>Olaplex</h3>
+                <p class="brand_discription">NEO Firm Neck & Décolleté Tightening Cream (50 g.)</p>
+                <p>$135.00</p>
+                <small>Earn 2x Dermstore Rewards Points</small>
+            </div>
+            
+            
+        </div>
+        <p class="arrow downn" id="downn">></p>
+    </div>
+</section>
+<!-- --------------brand part------------- -->
+<!-- --------------blog part------------- -->
+<section class="blog_box">
+
+    <div class="container flex_box_2 blog">
+        <div class="blog_head">
+            <h1>From the Blog</h1>
+        </div>
+        <p class="arrow up" id="blog_up"><</p>
+        <div class="boi_scroll blog_scroll">
+            <div class="blog_product">
+                <img src="https://www.dermstore.com/blog/wp-content/uploads/2020/03/skin-care-products-feature-1-300x180.jpg" alt="product_img">
+                <p>16 Best Buys from Our Beauty Refresh Event</p>
+                <small>Jenn Sinrich 3/3/21</small>
+                
+            </div>
+            
+            
+        </div>
+        <p class="arrow downn"id="blog_downn">></p>
+    </div>
+
+</section>
+<!-- --------------blog part------------- -->
+<!-- --------------Authorized  part------------- -->
+<section class="Authorized">
+    <div class="container flex_box_2 Authorize_box">
+        <p>Authorized Retailer </p>
+        <img src="https://media.dermstore.com/images/homepage/ds-authorized-check-logo.svg" alt=""> 
+        <p> Trusted since 1999 </p>
+
+    </div>
+
+</section>
+<!-- --------------Authorized  part------------- -->
+ <!------------------- footer div html----------------- -->
+    <div id="footer-div">
+        <div>
+          <h6>Company</h6>
+          <a href="./about.html">About Us</a><br />
+          <div id="space"></div>
+          <a href="#">Dermstore Spa</a><br />
+          <div id="space"></div>
+          <a href="#">Testimonials</a><br />
+          <div id="space"></div>
+          <a href="#">Press</a><br />
+          <div id="space"></div>
+          <a href="#">Brand Submissions</a><br />
+          <div id="space"></div>
+          <a href="#">eGift Cards</a><br />
+        </div>
+        <div>
+          <h6>Customer Service</h6>
+          <a href="#">Customer Service</a><br />
+          <div id="space"></div>
+          <a href="#">FAQs</a><br />
+          <div id="space"></div>
+          <a href="#">About Rewards</a><br />
+          <div id="space"></div>
+          <a href="#">Order Status</a><br />
+          <div id="space"></div>
+          <a href="#">Shipping Information</a><br />
+          <div id="space"></div>
+          <a href="#">Product Recall</a><br />
+          <div id="space"></div>
+          <a href="#">Accessibility</a><br />
+        </div>
+        <div>
+          <h6>My Account</h6>
+          <a href="#">Dermstore Subscriptions</a><br />
+          <div id="space"></div>
+          <a href="#">My Rewards</a><br />
+          <div id="space"></div>
+          <a href="#">My Favorites</a><br />
+          <div id="space"></div>
+          <a href="#">Order History</a><br />
+          <div id="space"></div>
+          <a href="#">Returns</a><br />
+        </div>
+        <div>
+          <h6>New Subscribers Receive 15% Off*</h6>
+          <label for="">Email</label><br />
+          <input type="text" name="" id="offer-email" placeholder="Email" />
+          <button>></button>
+          <br /><br />
+          <a href="#"
+            >*Offer valid for new subscribers and participating brands only.
+            Single-use promo will be sent via email.</a
+          ><br /><br />
+          <div id="login-follow">
+            Follow us on
+            <br /><br />
+            <img id="img-social" src="login_img\facebook_svg.svg" alt="" />
+            <img id="img-social" src="login_img\instagram_svg.svg" alt="" />
+            <img id="img-social" src="login_img\twitter_svg.svg" alt="" />
+            <img id="img-social" src="login_img\youtube_svg.svg" alt="" />
+            <img id="img-social" src="login_img\pinterest_svg.svg" alt="" />
+          </div>
+          <div id="space"></div>
+          
+          
+        </div>
+      </div>
+      <br><hr style="width: 70%;">
+        <div id="login-privacy">
+          <p>Copyright © 2021 Dermstore.com. All Rights Reserved.</p>
+          <p>CA Privacy Rights Do Not Sell My Personal Information - CA Residents Interest-Based Ads Privacy and Security Terms of Use</p>
+      </div><br>
+      <script src="./login.js"></script>
+    <script type="module" src="./main.js"></script>
 </body>
 </html>
