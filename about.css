@@ -30,14 +30,14 @@ p{
 }
 #page2>div:nth-child(1){
     width: 49.5%;
-    height: 85vh;
+    /* height: 85vh; */
     margin-top: 30px;
     margin-left: 30px;
     float: left;
 }
 #page2>div:nth-child(2){
     width: 40%;
-    height: 50vh;
+    /* height: 50vh; */
     margin-top: 200px;
     margin-left: 30px;
     float: left;
@@ -70,8 +70,11 @@ p{
     margin-top: 0px;
     max-width: 1000px;
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-#learn-more>div:nth-child(1){
+/* #learn-more>div:nth-child(1){
     width: 25%;
     height: 55vh;
     border: 0.5px solid silver;
@@ -125,6 +128,13 @@ p{
     margin-left: 30px;
     float: left;
     text-align: center;
+} */
+#learn-more>div{
+    max-width: 300px;
+    border: 0.5px solid silver;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
 }
 h2{
     text-align: center;
@@ -138,5 +148,6 @@ a{
     max-width: 1000px;
     width: 100%;
     margin-left: auto;
+    margin-right: auto;
     clear: both;
 }
