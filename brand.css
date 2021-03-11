@@ -1,5 +1,5 @@
 body {
-  scroll-behavior: smooth ;
+  scroll-behavior: smooth;
   margin: 0;
   font-family: sans-serif, Georgia, "Times New Roman", Times, serif;
 }
@@ -10,7 +10,7 @@ html {
 
 #page-path {
   max-width: 100px;
-  margin-left: auto;
+  margin-left: 18%;
   margin-right: auto;
   font-size: 12px;
   margin-bottom: 40px;
@@ -107,7 +107,7 @@ table td > a:hover {
   font-weight: bold;
 }
 .brand_nav img {
-  width:200px;
+  width: 200px;
 }
 
 /* sections a to z */
@@ -141,19 +141,23 @@ table td > a:hover {
   margin-left: 200px;
 } */
 #section-has > div:nth-child(3) {
-  margin-left: 150px;
+  /* margin-left: 150px; */
 }
-/* .section1 > div:nth-child(1) {
-  margin-left: 200px;
-} */
+.section1 > div:nth-child(1) {
+  margin-left: 50px;
+  width: 30%;
+}
 .section1 > div:nth-child(2) {
-  margin-left: 100px;
+  margin-left: 50px;
+  width: 30%;
 }
 .section1 > div:nth-child(3) {
-  margin-left: 100px;
+  /* margin-left: 100px; */
+  width: 30%;
 }
 .section2 > div:nth-child(4) {
-  margin-left: 100px;
+  /* margin-left: 100px; */
+  width: 30%;
 }
 .section1 > div > a {
   display: block;
