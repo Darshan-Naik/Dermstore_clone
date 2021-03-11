@@ -1,12 +1,18 @@
 body {
   scroll-behavior: smooth ;
   margin: 0;
-  font-family: "Helvetica Neue", serif, Helvetica, Arial, sans-serif;
+  font-family: sans-serif, Georgia, "Times New Roman", Times, serif;
 }
 html {
   scroll-behavior: smooth;
 }
 /* brand heading */
+
+#page-path {
+  margin-left: 175px;
+  font-size: 12px;
+  margin-bottom: 40px;
+}
 
 .brand_container {
   width: 1000px;
@@ -16,7 +22,11 @@ html {
   text-align: center;
   color: #333333;
 }
-
+.brand_container > h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: lighter;
+  font-size: 24px;
+}
 .brand_image {
   display: flex;
   width: 1000px;
@@ -83,11 +93,13 @@ html {
 
 table td > a {
   width: 100%;
-  font-size: 20px;
+  font-size: 16px;
   margin: 15px;
   margin-left: -6px;
   color: #333333;
+  font-family: sans-serif, Georgia, "Times New Roman", Times, serif;
 }
+
 table td > a:hover {
   color: black;
   font-weight: bold;
@@ -114,7 +126,7 @@ table td > a:hover {
   width: 77%;
   margin-left: 20px;
   border: none;
-  margin-top: 40px;
+  margin-top: 10px;
   border-top: 1px solid rgb(231, 229, 229);
 }
 .section1 {
