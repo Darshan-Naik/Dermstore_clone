@@ -101,6 +101,8 @@ table td > a:hover {
   max-width: 1000px;
   width: 90%;
   margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .has > h2 {
   margin-left: 15%;
@@ -118,6 +120,8 @@ table td > a:hover {
 .section1 {
   display: flex;
   max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 #section-has > div:nth-child(2) {
   margin-left: 200px;
@@ -141,8 +145,11 @@ table td > a:hover {
   display: block;
   text-decoration: none;
   color: #333333;
+  line-height: 1.2;
+  white-space: nowrap;
+  font-family: sans-serif, Georgia, "Times New Roman", Times, serif;
 }
 .section1 > div > a:hover {
   color: black;
-  font-weight: 800;
+  font-weight: 600;
 }
