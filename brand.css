@@ -1,9 +1,15 @@
 body {
   margin: 0;
-  font-family: "Helvetica Neue", serif, Helvetica, Arial, sans-serif;
+  font-family: sans-serif, Georgia, "Times New Roman", Times, serif;
 }
 
 /* brand heading */
+
+#page-path {
+  margin-left: 175px;
+  font-size: 12px;
+  margin-bottom: 40px;
+}
 
 .brand_container {
   width: 1000px;
@@ -13,7 +19,11 @@ body {
   text-align: center;
   color: #333333;
 }
-
+.brand_container > h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: lighter;
+  font-size: 24px;
+}
 .brand_image {
   display: flex;
   width: 1000px;
