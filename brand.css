@@ -9,7 +9,9 @@ html {
 /* brand heading */
 
 #page-path {
-  margin-left: 175px;
+  max-width: 100px;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 12px;
   margin-bottom: 40px;
 }

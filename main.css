@@ -5,7 +5,9 @@ body{
 a{
     text-decoration: none;
 }
-
+*{
+    font-family: apercu;
+}
 .banner_box{
     background-image: url("https://media.dermstore.com/images/homepage/beauty-refresh-hp-banner-03-21.jpg");
     background-repeat: no-repeat;
@@ -96,7 +98,7 @@ a{
 }
 
 .trending{
-   background-image: url("https://media.dermstore.com/images/homepage/product-carousel-neocutis.jpg");
+   background-image: url("https://media.dermstore.com/images/homepage/hp-carousel-now-trending.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 50px;
@@ -188,9 +190,9 @@ font-weight: normal;
     padding-right: 25px;
 }
 .brand_banner{
-    background-image: url("https://media.dermstore.com/images/homepage/earlyaccess-br-hp-loyalty-banner-3-20.jpg");
+    background-image: url("https://media.dermstore.com/images/homepage/hp-carousel-now-arrivals.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-size: cover;
     height: 160px;
     margin-top: 80px;
     justify-content: flex-end;
@@ -200,16 +202,13 @@ font-weight: normal;
     padding: 10px 25px;
 }
 .banner_text>*{
-color: white;
+color: black;
 }
-.banner_text>h2{
+.banner_text>h1{
+    padding-top: 10px;
     margin-bottom: 0;
 }
-.banner_text>p{
-    margin-top: 0;
-}
 .banner_text>a{
-    margin-left: 25px;
     text-decoration: underline;
 }
 .brand_product>img{
