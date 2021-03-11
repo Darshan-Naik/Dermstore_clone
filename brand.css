@@ -101,8 +101,9 @@ table td > a:hover {
   max-width: 1000px;
   width: 90%;
   margin-top: 20px;
-  margin-left: auto;
+  margin-left: 20px;
   margin-right: auto;
+  align-items: center;
 }
 .has > h2 {
   margin-left: 15%;
@@ -120,7 +121,7 @@ table td > a:hover {
 .section1 {
   display: flex;
   max-width: 1000px;
-  margin-left: auto;
+  margin-left: 35px;
   margin-right: auto;
 }
 #section-has > div:nth-child(2) {
