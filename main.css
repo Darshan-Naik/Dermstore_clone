@@ -5,7 +5,9 @@ body{
 a{
     text-decoration: none;
 }
-
+*{
+    font-family: apercu;
+}
 .banner_box{
     background-image: url("https://media.dermstore.com/images/homepage/beauty-refresh-hp-banner-03-21.jpg");
     background-repeat: no-repeat;

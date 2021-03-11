@@ -10,7 +10,6 @@ window.onscroll = ()=>{
     }
 }
 var login = localStorage.getItem("Login")
-console.log(login);
 if(login == "true"){
     document.querySelector("#user").innerHTML = `Logout`
 }
