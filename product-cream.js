@@ -45,6 +45,5 @@ document.querySelector("#buy-button-product").onclick = function (){
       }
     items.push(item)
     localStorage.setItem("items",JSON.stringify(items))
-    console.log(items);
     document.querySelector("#buy-button-product").textContent = "Added"
 }

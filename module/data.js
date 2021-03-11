@@ -8,7 +8,7 @@ export var bio_products = [
         code : "GLOWUP"                               
     },
     {
-        src : "https://media.dermstore.com/catalog/500517/300x300/82326.jpg",
+        src : "https://media.dermstore.com/catalog/100155/300x300/5211.jpg",
         disp : " BIO SERUM FIRM Rejuvenating Growth Factor and Peptide Treatment (1 fl. oz.)",
         price : "$275.00",
         sale: "Sale: $220.00",
@@ -16,7 +16,7 @@ export var bio_products = [
         code : "GLOWUP"                               
     },
     {
-        src : "https://media.dermstore.com/catalog/500517/300x300/84137.jpg",
+        src : "https://media.dermstore.com/catalog/100113/300x300/20344.jpg",
         disp : " LUMIÈRE® FIRM RICHE Extra Moisturizing Illuminating & Tightening Eye Cream (0.5 fl. oz.)",
         price : "$118.00",
         sale: "Sale: $94.40",
@@ -24,7 +24,7 @@ export var bio_products = [
         code : "GLOWUP"                               
     },
     {
-        src : "https://media.dermstore.com/catalog/500517/300x300/84138.jpg",
+        src : "https://media.dermstore.com/catalog/502043/300x300/76227.jpg",
         disp : " LUMIÈRE® FIRM Illuminating & Tightening Eye Cream (0.5 fl. oz.)",
         price : "$108.00",
         sale: "Sale: $86.40",
@@ -32,7 +32,7 @@ export var bio_products = [
         code : "GLOWUP"                               
     },
     {
-        src : "https://media.dermstore.com/catalog/500517/300x300/11062.jpg",
+        src : "https://media.dermstore.com/catalog/502830/300x300/79039.jpg",
         disp : " NEO Firm Neck & Décolleté Tightening Cream (50 g.)",
         price : "$135.00",
         sale: "Sale: $108.00",
@@ -40,7 +40,7 @@ export var bio_products = [
         code : "GLOWUP"                               
     },
     {
-        src : "https://media.dermstore.com/catalog/500517/300x300/82326.jpg",
+        src : "https://media.dermstore.com/catalog/500221/300x300/19627.jpg",
         disp : " BIO SERUM FIRM Rejuvenating Growth Factor and Peptide Treatment (1 fl. oz.)",
         price : "$275.00",
         sale: "Sale: $220.00",
@@ -48,7 +48,7 @@ export var bio_products = [
         code : "GLOWUP"                               
     },
     {
-        src : "https://media.dermstore.com/catalog/500517/300x300/84137.jpg",
+        src : "https://media.dermstore.com/catalog/100137/300x300/60681.jpg",
         disp : " LUMIÈRE® FIRM RICHE Extra Moisturizing Illuminating & Tightening Eye Cream (0.5 fl. oz.)",
         price : "$118.00",
         sale: "Sale: $94.40",
@@ -56,7 +56,7 @@ export var bio_products = [
         code : "GLOWUP"                               
     },
     {
-        src : "https://media.dermstore.com/catalog/500517/300x300/84138.jpg",
+        src : "https://media.dermstore.com/catalog/504863/300x300/81210.jpg",
         disp : " LUMIÈRE® FIRM Illuminating & Tightening Eye Cream (0.5 fl. oz.)",
         price : "$108.00",
         sale: "Sale: $86.40",
@@ -64,7 +64,7 @@ export var bio_products = [
         code : "GLOWUP"                               
     },
     {
-        src : "https://media.dermstore.com/catalog/500517/300x300/84137.jpg",
+        src : "https://media.dermstore.com/catalog/500067/300x300/41859.jpg",
         disp : " LUMIÈRE® FIRM RICHE Extra Moisturizing Illuminating & Tightening Eye Cream (0.5 fl. oz.)",
         price : "$118.00",
         sale: "Sale: $94.40",
@@ -72,7 +72,7 @@ export var bio_products = [
         code : "GLOWUP"                               
     },
     {
-        src : "https://media.dermstore.com/catalog/500517/300x300/84138.jpg",
+        src : "https://media.dermstore.com/catalog/100114/300x300/32424.jpg",
         disp : " LUMIÈRE® FIRM Illuminating & Tightening Eye Cream (0.5 fl. oz.)",
         price : "$108.00",
         sale: "Sale: $86.40",
