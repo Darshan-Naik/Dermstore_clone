@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+/* a link */
+#content-product-cream-h4 {
+  width: 67%;
+  margin: 3% auto;
+}
+#content-product-cream-h4 a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+#content-product-cream-h4 a:hover {
+  text-decoration: underline;
+  color: rgb(78, 78, 190);
+}
+#content-product-cream-h4 h4 {
+  font-weight: 200;
+}
+
+#header-shopping {
+  width: 67%;
+  margin: auto;
+}
+#header-shopping h2 {
+  font-size: 32px;
+  font-weight: 400;
+}
+#header-shopping button {
+  background-color: rgb(53, 42, 42);
+  color: white;
+  padding: 1% 5%;
+}
+#header-shopping button:nth-child(3) {
+  margin-left: 55%;
+}
+#header-shopping button:nth-child(2) {
+  background-color: rgb(167, 167, 167);
+  border-color: grey;
+  color: black;
+}
