@@ -48,4 +48,3 @@ document.querySelector("#buy-button-product").onclick = function (){
     console.log(items);
     document.querySelector("#buy-button-product").textContent = "Added"
 }
-
