@@ -1,17 +1,5 @@
 import {bio_products,brand_products,blog_product}  from "./module/data.js"
 console.log(bio_products)
-let top_header = document.querySelector(".header_top")
-let header_nav = document.querySelector(".header_nav")
-window.onscroll = ()=>{
-     if(scrollY >250){
-        header_nav.classList.add("bottom_line")
-        top_header.style.marginTop = "-60px";
-    }
-    if(scrollY <550){
-        top_header.style.marginTop = "0px";
-    }
-}
-
 var product_cont = document.querySelector(".boi_scroll")
 bio_products.forEach((el,i)=>{
     let div =document.createElement("div")
@@ -146,14 +134,7 @@ document.querySelector("#blog_up").onclick = ()=>{
           });
     }
 
-var login = localStorage.getItem("Login")
-console.log(login);
-if(login == "true"){
-    document.querySelector("#user").innerHTML = `Logout`
-}
-document.querySelector("#user").onclick = ()=>{
-    localStorage.setItem("Login",false)
-}
+
 
 
 function product_page(event){

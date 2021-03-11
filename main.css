@@ -149,6 +149,7 @@ font-weight: normal;
 .arrow{
     font-size: 50px;
     height: 100%;
+    cursor: pointer;
 }
 .product>img{
     width: 150px;
