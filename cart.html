@@ -63,12 +63,47 @@
   </div>
   <div id="header-shopping">
       <h2>Shopping Cart</h2>
-      <button id="continueShopping">CONTINUE SHOPPING</button>
-      <button id="checkoutCart">CHECKOUT</button>
+      <a href="./index.html" style="text-decoration: none; color: black; cursor: pointer;"><button id="continueShopping">CONTINUE SHOPPING</button></a>
+      <button id="buyCOD" onclick="buyCOD()">Buy Now Cash On Delivery</button>
   </div>
 
   <div id="shopping-table">
+      <div id="table-head">
+        <div id="cart-img">Product Image</div>
+        <div id="cart-items">Items In Your Order</div>
+        <div id="cart-qty">Quantity</div>  
+        <div id="cart-price">Product Price</div>
+        <div id="cart-total">Product Total</div>
+      </div>
       
+  </div>
+
+  <div id="messageBox">
+    <p>Please allow for up to 48 hours of processing time. Please note, there may be slight delays in delivery as our shipping partners experience high volumes of orders</p>
+    <p id="point-reward"></p>
+  </div>
+
+  <div id="finalDetail">
+    <div id="left-detail">
+      <div id="promoDetail">
+        <label for="promo">Apply Coupon</label>
+        <input type="text" name="promo" id="promo">
+        <button id="promo-button" onclick="promoDiscount()">APPLY</button>
+      </div><br>
+      <div id="basicDetail">
+        <p>🛒 Free Exchanges & Easy Returns</p>
+        <p>💵 Dermstore has Secure Transactions</p>
+        <p>📱 Questions? Contact Us</p>
+      </div>
+    </div>
+    <div id="right-detail">
+      <p id="subtotal">Subtotal | $ 0</p>
+      <p id="discount">Promo Code Discount | $ 0</p>
+      <p id="shipping">Shipping | $ 0</p>
+      <p id="tax">Tax | $ 0</p>
+      <h3 id="finalPrice">Total | $ 0</h3>
+      <button id="buyCOD" onclick="buyCOD()">Buy Now Cash On Delivery</button>
+    </div>
   </div>
 
   <!-- footer div html -->

@@ -13,6 +13,8 @@ function signup(){
             console.log(obj1);
             var jsonObj = JSON.stringify(obj1);
             localStorage.setItem("DarmReg", jsonObj);
+            document.getElementById("signup-email").value = "";
+            document.getElementById("signup-password").value = "";
             alert("Registration Successful");
         } else {
             alert("Password must be in proper format")

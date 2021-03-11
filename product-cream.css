@@ -58,6 +58,7 @@ table {
   font-size: 20px;
   margin-left: 35%;
   margin-bottom: 2%;
+  cursor: pointer;
 }
 #cream-product-p {
   text-align: right;
