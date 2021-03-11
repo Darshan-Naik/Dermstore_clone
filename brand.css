@@ -81,18 +81,20 @@ body {
 
 table td > a {
   width: 100%;
-  font-size: 20px;
+  font-size: 16px;
   margin: 15px;
   margin-left: -6px;
   color: #333333;
+  font-family: sans-serif, Georgia, "Times New Roman", Times, serif;
 }
+
 table td > a:hover {
   color: black;
   font-weight: bold;
 }
 .brand_nav img {
   width: 100%;
-  height: 100%;
+  height: 90%;
 }
 
 /* sections a to z */
@@ -115,7 +117,7 @@ table td > a:hover {
   width: 77%;
   margin-left: 20px;
   border: none;
-  margin-top: 40px;
+  margin-top: 10px;
   border-top: 1px solid rgb(231, 229, 229);
 }
 .section1 {
