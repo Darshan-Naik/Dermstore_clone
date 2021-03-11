@@ -99,6 +99,7 @@ table td > a:hover {
 .has {
   display: flex;
   width: 90%;
+  margin-top: 20px;
 }
 .has > h2 {
   margin-left: 15%;
@@ -116,12 +117,30 @@ table td > a:hover {
 .section1 {
   display: flex;
 }
+#section-has > div:nth-child(2) {
+  margin-left: 200px;
+}
+#section-has > div:nth-child(3) {
+  margin-left: 150px;
+}
 .section1 > div:nth-child(1) {
   margin-left: 200px;
 }
 .section1 > div:nth-child(2) {
-  margin-left: 200px;
+  margin-left: 100px;
 }
 .section1 > div:nth-child(3) {
-  margin-left: 200px;
+  margin-left: 100px;
+}
+.section2 > div:nth-child(4) {
+  margin-left: 100px;
+}
+.section1 > div > a {
+  display: block;
+  text-decoration: none;
+  color: #333333;
+}
+.section1 > div > a:hover {
+  color: black;
+  font-weight: 800;
 }
