@@ -1,9 +1,5 @@
-html {
-  scroll-behavior: smooth;
-}
-
 body {
-  scroll-behavior: smooth ;
+  scroll-behavior: smooth;
   margin: 0;
   font-family: sans-serif, Georgia, "Times New Roman", Times, serif;
 }
@@ -109,7 +105,7 @@ table td > a:hover {
   font-weight: bold;
 }
 .brand_nav img {
-  width:200px;
+  width: 200px;
 }
 
 /* sections a to z */
