@@ -65,6 +65,38 @@
       <hr />
     </div>
 
+      <section class="forget hide">
+        <h1>Reset password</h1>
+        <div class="form">
+          <label for="reset_email">Email </label><br>
+          <input type="text" name="" id="reset_email" placeholder="Email" /><br>
+          <label for="">Password</label><br>
+          <input
+            type="password"
+            name=""
+            id="reset-password"
+            placeholder="Password"
+          /><br>
+          <label for="">Confirm Password</label><br>
+          <input
+            type="password"
+            name=""
+            id="reset2-password"
+            placeholder="Confirm Password"
+          /><br>
+          <button id="reset-button" onclick="reset()">Reset</button>
+        </div>
+
+      </section>
+
+
+
+
+
+
+
+
+
     <div id="login-main">
       <div id="login-module">
         <h3 id="login-module-h3">Returning Customer</h3>
@@ -83,7 +115,7 @@
             placeholder="Password"
           />
         </form>
-        <a href="#">Forgot your password?</a><br />
+        <a href="#" onclick="Forget_ps()">Forgot your password?</a><br />
         <button id="login-button" onclick="signin()">Sign In</button>
       </div>
       <div id="hr-module"></div>
