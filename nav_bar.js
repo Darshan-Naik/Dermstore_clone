@@ -5,7 +5,7 @@ window.onscroll = ()=>{
         header_nav.classList.add("bottom_line")
         top_header.style.marginTop = "-60px";
     }
-    if(scrollY <550){
+    if(scrollY <250){
         top_header.style.marginTop = "0px";
     }
 }
