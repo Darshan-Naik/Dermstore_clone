@@ -2,6 +2,9 @@ body{
     margin: 0;
     font-family: "Helvetica Neue", serif, Helvetica,Arial,sans-serif;
 }
+html{
+    overflow-x: hidden;
+}
 a{
     text-decoration: none;
 }
