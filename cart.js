@@ -71,19 +71,20 @@ for(var i=0; i<objDataCart.length; i++){
 
 //console.log(sumAll);
 
-document.getElementById("point-reward").innerHTML = `You could earn ${sumAll*4} Dermstore Rewards points with this purchase.`;
+var rewardCollect = Math.floor(sumAll*4);
+document.getElementById("point-reward").innerHTML = `You could earn ${rewardCollect} Dermstore Rewards points with this purchase.`;
 
 var promoDiscountRate = 0;
 // subtotal
-document.getElementById("subtotal").innerHTML = "Subtotal | $ " + sumAll;
-document.getElementById("finalPrice").innerHTML = "Total | $ " + (sumAll);
+document.getElementById("subtotal").innerHTML = "Subtotal | $ " + Math.floor(sumAll);
+document.getElementById("finalPrice").innerHTML = "Total | $ " + Math.floor(sumAll);
 
 function promoDiscount(){
     var promoCode = document.getElementById("promo").value;
     if(promoCode == "GLOWUP" || promoCode == "glowup"){
         promoDiscountRate = sumAll / 5;
-        document.getElementById("discount").innerHTML = "Promo Code Discount | $ " + promoDiscountRate;
-        document.getElementById("finalPrice").innerHTML = "Total | $ " + (sumAll-promoDiscountRate);
+        document.getElementById("discount").innerHTML = "Promo Code Discount | $ " + Math.floor(promoDiscountRate);
+        document.getElementById("finalPrice").innerHTML = "Total | $ " + Math.floor(sumAll-promoDiscountRate);
     }
 }
 
@@ -95,7 +96,7 @@ function buyCOD(){
         localStorage.removeItem("items");
         window.location.href = "./orderstatus.html";
     } else if(loginStatus == "false") {
-        alert("Please Create An Account");
+        alert("Please create an Account or Login into the existing Account");
         window.location.href = "./login.html";
     }
 }

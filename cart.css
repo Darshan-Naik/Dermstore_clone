@@ -33,13 +33,15 @@ button {
   font-weight: 400;
 }
 #header-shopping button {
-  background-color: rgb(29, 24, 24);
-  color: white;
+  background-color: rgb(179, 174, 174);
+  color: rgb(0, 0, 0);
   padding: 1% 5%;
 }
 #header-shopping button:nth-child(3) {
-  margin-left: 38%;
+  margin-left: 41%;
   font-size: 17px;
+  background-color: rgb(22, 19, 19);
+  color: white;
 }
 #header-shopping button:nth-child(2) {
   background-color: rgb(167, 167, 167);
@@ -53,7 +55,7 @@ button {
   margin: 3% auto;
   border: 1px solid black;
   min-height: 205px;
- max-height: 405px;
+  max-height: 405px;
   overflow: auto;
 }
 #table-head {
@@ -160,7 +162,8 @@ button {
   background-color: black;
   color: white;
   padding: 4%;
-  margin: 4px;
+  margin: 1px;
+  margin-top: 5px;
   cursor: pointer;
   font-size: 18px;
   width: 300px;
