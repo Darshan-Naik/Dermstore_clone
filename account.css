@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+}
+#account-div {
+  width: 75%;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#account-left-div {
+  padding: 30px;
+  width: 24%;
+}
+#account-left-div h3 {
+  font-size: 28px;
+  margin: 0;
+}
+#div-hr-account {
+  width: 2px;
+  height: 450px;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 2px;
+  background-color: black;
+}
+#profile-img {
+  width: 170px;
+  margin-top: 20px;
+}
+#account-right-div {
+  width: 80%;
+  background-color: rgb(255, 255, 255);
+  margin: 1%;
+  padding: 1%;
+}
+#grid-account {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 1%;
+  margin-top: 7%;
+  padding: 1%;
+}
+#account-right-div h3 {
+  font-size: 26px;
+  margin: 2%;
+  color: rgb(37, 36, 36);
+}
+#account-right-div label {
+  font-size: 17px;
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 10px;
+}
+#account-right-div input {
+  font-size: 15px;
+  color: rgb(20, 19, 19);
+  padding: 3%;
+  margin: 3%;
+  width: 80%;
+  border-bottom: 0;
+  border-right: 0;
+  box-shadow: 5px 4px rgb(252, 176, 168);
+}
+#account-submit {
+  width: 200px;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  height: 40px;
+  padding: 1%;
+  margin: 3%;
+  box-shadow: 5px 7px rgb(221, 139, 129);
+}
