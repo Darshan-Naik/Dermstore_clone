@@ -3,15 +3,12 @@ let header_nav = document.querySelector(".header_nav")
 window.onscroll = ()=>{
      if(scrollY >250){
         header_nav.classList.add("bottom_line")
-        top_header.style.marginTop = "-60px";
-    }
-    if(scrollY <250){
-        top_header.style.marginTop = "0px";
     }
 }
 var login = localStorage.getItem("Login")
 if(login == "true"){
-    document.querySelector("#user").innerHTML = `Logout`
+   let User_name = JSON.parse( localStorage.getItem("UserDetails"));
+    document.querySelector("#user").innerHTML = `${User_name.accountName} / Logout`
 }
 document.querySelector("#user").onclick = ()=>{
     localStorage.setItem("Login",false)
