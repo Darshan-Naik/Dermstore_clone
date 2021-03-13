@@ -17,7 +17,7 @@ function signup(){
             document.getElementById("signup-email").value = "";
             document.getElementById("signup-password").value = "";
             window.location.href = "./account.html";
-            alert("Registration Successful");
+
         } else {
             alert("Password must be in proper format")
         }

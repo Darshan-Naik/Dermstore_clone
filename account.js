@@ -14,12 +14,18 @@ function submitAccount(){
         this.accountPhone = accountPhone;
         this.accountDob = accountDob;
     }
+    if(accountName != "" && accountAddress !="" && accountPin !="" && accountPhone !=""  && accountDob != ""){
+
     var accDetails = new Account(accountName, accountAddress, accountPin, accountPhone, accountDob);
     var accJson = JSON.stringify(accDetails);
     console.log(accJson);
 
     localStorage.setItem("UserDetails", accJson);
 
-    alert("Details Successfully Uploaded");
+    alert("Registration Successful");
     window.location.href = "./login.html";
+} else {
+    alert("Fill All the details");
+}
+
 }
