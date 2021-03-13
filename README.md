@@ -12,4 +12,4 @@ Products: Cosmetics & beauty
 4. Subhash Kumar Jha
 
 # Technologies Used
-We used HTML(Hyper Text Markup Language), CSS(Cascading Style Sheet), JS(JavaScript). Other than that we widely used localstorage to store all the data. To build our dynamic website we also created a API(Application programming interface) structure from there we fetch the data to show in our home page and specific product page.
+We used HTML(Hyper Text Markup Language), CSS(Cascading Style Sheet), JS(JavaScript). Other than that we widely used localstorage to store all the data. To build our dynamic website we created one data file to import the data to load on the page dynamically and specific product page.
