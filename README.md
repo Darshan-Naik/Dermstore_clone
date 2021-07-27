@@ -18,7 +18,7 @@ In this project  we haven't shared all the pages here.Please fork the repository
 
 You can also take the glimpse of our Project,just follow the below steps:
 
-    1.copy the indexhtml file patch.
+    1.copy the index.html file patch.
 
     2.Go to the browser paste the index.html path and you will land on Home page.
 
